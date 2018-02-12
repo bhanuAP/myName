@@ -8,7 +8,7 @@ let requestHandler = function(req,res) {
   }
   if (req.url == '/getMyName') {
     res.statusCode = 200;
-    res.write("Bhanu teja");
+    res.send("Bhanu teja");
     res.end();
   } else {
     res.statusCode = 404;
