@@ -1,0 +1,26 @@
+{
+  "name": "myname",
+  "version": "1.0.0",
+  "description": "\"This app will get my name\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanuAP/myName.git"
+  },
+  "keywords": [
+    "git",
+    "Heroku"
+  ],
+  "author": "Bhanu Teja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanuAP/myName/issues"
+  },
+  "homepage": {
+    "url": "https://github.com/bhanuAP/myName#readme"
+  }
+}
