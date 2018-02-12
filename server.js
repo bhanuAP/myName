@@ -1,8 +1,11 @@
 const http = require('http');
-const PORT = 5000;
+const PORT = 8000;
 
 let requestHandler = function(req,res) {
   console.log(req.url);
+  if(req.url == '/') {
+    req.url = '/getMyName';
+  }
   if (req.url == '/getMyName') {
     res.statusCode = 200;
     res.write("Bhanu teja");
